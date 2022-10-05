@@ -30,17 +30,26 @@
      - [Tools to Copy/Transfer files to your Steam Deck](https://github.com/mikeroyal/Steam-Deck-Guide#tools-to-copytransfer-files-to-your-steam-deck)
      - [Running Android Apps on your Steam Deck](https://github.com/mikeroyal/Steam-Deck-Guide#running-android-apps-on-your-steam-deck)
      - [Running Bottles on your Steam Deck](https://github.com/mikeroyal/Steam-Deck-Guide#running-bottles-on-your-steam-deck)
-     - [Steam Deck Power Tools](https://github.com/mikeroyal/Steam-Deck-Guide#steam-deck-power-tools)
      - [Steam Tinker Launch](https://github.com/mikeroyal/Steam-Deck-Guide#steam-tinker-launch)
      - [RetroDECK](https://github.com/mikeroyal/Steam-Deck-Guide#RetroDECK)
      - [Adding Btrfs on Steam Deck](https://github.com/mikeroyal/Steam-Deck-Guide#btrfs-on-steam-deck)
-     - [Plugin Loader for Steam Deck](https://github.com/mikeroyal/Steam-Deck-Guide#plugin-loader)
+     - [Plugin Loaders for Steam Deck](https://github.com/mikeroyal/Steam-Deck-Guide#plugin-loaders)
+        * [Decky Loader](https://github.com/mikeroyal/Steam-Deck-Guide#plugin-loaders#decky-loader)
+          * [Steam Deck Power Tools](https://github.com/mikeroyal/Steam-Deck-Guide#steam-deck-power-tools)
+        * [Crankshaft](https://github.com/mikeroyal/Steam-Deck-Guide#plugin-loaders#crankshaft)
+     - [Installing Unreal Engine 5 on your Steam Deck](https://github.com/mikeroyal/Steam-Deck-Guide#installing-unreal-engine-on-linux)
 
 2. [Gaming](https://github.com/mikeroyal/Steam-Deck-Guide#gaming)
 
      - [Steam](https://github.com/mikeroyal/Steam-Deck-Guide#steam)
      - [ProtonDB](https://github.com/mikeroyal/Steam-Deck-Guide#protondb)
      - [Lutris](https://github.com/mikeroyal/Steam-Deck-Guide#lutris)
+        * [Epic Games Store integration](https://github.com/mikeroyal/Steam-Deck-Guide#Epic-Games-Store-integration)
+        * [Blizzard Battle.net integration](https://github.com/mikeroyal/Steam-Deck-Guide#blizzard-battlenet-intgeration)
+        * [EA Play integration](https://github.com/mikeroyal/Steam-Deck-Guide#EA-Play-integration)
+        * [Origin integration](https://github.com/mikeroyal/Steam-Deck-Guide#Origin-integration)
+        * [Ubisoft Connect integration](https://github.com/mikeroyal/Steam-Deck-Guide#Ubisoft-Connect-integration)
+        * [GOG Galaxy integration](https://github.com/mikeroyal/Steam-Deck-Guide#GOG-Galaxy-integration)
      - [GameHub](https://github.com/mikeroyal/Steam-Deck-Guide#gamehub)
      - [Epic Games Store](https://github.com/mikeroyal/Steam-Deck-Guide#epic-games-store)
      - [Game Streaming](https://github.com/mikeroyal/Steam-Deck-Guide#game-streaming)
@@ -64,15 +73,21 @@
 
 [Steam Deck](https://www.steamdeck.com/) is a handheld gaming computer developed by [Valve Corporation](https://valvesoftware.com/) in cooperation with [Advanced Micro Devices (AMD)](https://www.amd.com/). It allows users to play their entire Steam game library but can be modified by the user to run other gaming storefronts or applications. The Steam Deck started shipping in February 2022.
 
-[Steam Deck Teardown by Jeff Suovanen | iFixit](https://www.ifixit.com/News/57101/steam-deck-teardown)
+* [Steam Deck Booklet](https://store.steampowered.com/news/app/1675200/view/3401926123919972634)
 
-[Unlock Steam Deck tutorial | Chris Titus Tech](https://christitus.com/unlock-steam-deck/)
+* [Top Steam Deck Tips and Tricks Part 1 | GamingOnLinux](https://www.gamingonlinux.com/2022/08/top-quick-steam-deck-tips-and-tricks/)
+ 
+* [Steam Deck Tips and Tricks Part 2 | GamingOnLinux](https://www.gamingonlinux.com/2022/08/steam-deck-tips-and-tricks-part-2/)
 
-[Steam Deck Hardware Review by Linus Tech Tips](https://www.youtube.com/watch?v=HjZ4POvk14c)
+* [Steam Deck Teardown by Jeff Suovanen | iFixit](https://www.ifixit.com/News/57101/steam-deck-teardown)
 
-[Steam Deck Unboxing Experience by Linus Tech Tips](https://www.youtube.com/watch?v=_UB9XoPlJ0U)
+* [Unlock Steam Deck tutorial | Chris Titus Tech](https://christitus.com/unlock-steam-deck/)
 
-[Steam Deck Tear Down by Linus Tech Tips](https://www.youtube.com/watch?v=ZK43RAc90ZA)
+* [Steam Deck Hardware Review by Linus Tech Tips](https://www.youtube.com/watch?v=HjZ4POvk14c)
+
+* [Steam Deck Unboxing Experience by Linus Tech Tips](https://www.youtube.com/watch?v=_UB9XoPlJ0U)
+
+* [Steam Deck Tear Down by Linus Tech Tips](https://www.youtube.com/watch?v=ZK43RAc90ZA)
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/142779563-30ada576-1bf4-42fb-8ad5-3fa3a6e40103.png">
@@ -132,6 +147,70 @@ Graphics: RDNA 2 with 8 CUs, variable frequency @ 1.0–1.6 GHz.
  Back
 </p>
 
+[dbrand Skins](https://dbrand.com/shop/steam-deck-skins) Skins for the Steam Deck made by dbrand.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/88871218/193435035-6b799061-f08d-4948-810f-59ca59a9be13.png">
+<br />
+ dbrand Skin
+</p>
+
+[Xtremeskins.co.uk Skins](https://www.xtremeskins.co.uk/products/steam-deck-skins) Skins for the Steam Deck made by Xtremeskins. Note that Xtremeskins is based in the UK. They ship globally, but it may take some time.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/88871218/193435142-3012f99f-e3b3-4f9c-ba38-52c257058d7b.png">
+<br />
+ Xtremeskins skin
+</p>
+
+[Custom Skins](https://drive.google.com/file/d/1rQFoLlpMUKFEJcRIh80UvpmdVXZIsEZz/view) If you have access to the equipment it is possible to make your own skins from vinyl. This file provides the necessary cut template.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/88871218/193435273-4f2c9363-6f03-4e91-b6aa-60628caffab6.png">
+<br />
+ Custom skins cut template
+</p>
+
+[JSAUX Protective Standing Case](https://www.jsaux.com/products/steam-deck-stand-protector) is a case for the Steam Deck made by JSAUX which features a kick stand.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/88871218/193434666-38889d22-e17c-4183-9874-650dd4d41e92.png">
+<br />
+ JSAUX Protective Standing Case front and back view
+</p>
+
+[JSAUX Protective Case](https://www.jsaux.com/products/steam-deck-protective-case) is a case for the Steam Deck made by JSAUX.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/88871218/193434692-46fad5ea-4f70-4c66-9f15-4b308f18d1df.png">
+<br />
+ JSAUX Protective Case
+</p>
+
+[Spigen Steam Deck Case](https://www.spigen.com/collections/steam-deck/products/steam-deck-case-rugged-armor?variant=41139474923567) is a case for the Steam Deck made by Spigen. It features a hard plastic element on the back which some individuals have used for modding.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/88871218/193434798-16e3bc45-d5ca-4ba4-b4b9-c886ed395966.png">
+<br />
+ Spigen Case
+</p>
+
+[JSAUX Steam Deck Docking Station](https://www.jsaux.com/products/upgraded-docking-station-for-steam-deck) is a 6-in-1 Docking Station for Steam Deck. Equipped with an HDMI 4K@60Hz output, a Gigabit LAN Ethernet input, a USB-C port for charging, and three USB-A 3.0 ports, letting you explore a new way to play with Steam Deck. It supports 100W(Maximum) power delivery, which is enough power to charge your Steam Deck at full speed (45W) when paired with the original charger.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/186289763-9eca1e86-ed13-4cd4-a1ce-c4e433442d78.png">
+<br />
+JSAUX Steam Deck Docking Station
+</p>
+
+[JSAUX Steam Deck Docking Station With M.2](https://www.jsaux.com/products/m-2-docking-station-for-steam-deck-hb0604) is a 6-in-1 Docking Station for Steam Deck. Equipped with an HDMI 4K@60Hz output, a Gigabit LAN Ethernet input, a USB-C port for charging, two USB-A 3.0 ports, and a full size M.2 slot. It supports 100W(Maximum) power delivery, which is enough power to charge your Steam Deck at full speed (45W) when paired with the original charger. The M.2 slot supports 2230, 2242, 2260, or 2280 M.2 drives with M or M&B key at up to 900MB/s. The drive is automatically mounted when attached to the dock using a script provided by JSAUX.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/88871218/193434546-dac68ed0-02d5-44d2-a1cf-7244d0792f74.png">
+<br />
+JSAUX Steam Deck Docking Station M.2
+</p>
+
 [NexDock](https://nexdock.com/features/) is an accessory with a HDMI-in port and Type-C cable NexDock that turns the Steam Deck into a fully functional computer.
 
 <p align="center">
@@ -140,6 +219,30 @@ Graphics: RDNA 2 with 8 CUs, variable frequency @ 1.0–1.6 GHz.
 </p>
 
 **NexDock 2-in-1. Source: [NexDock](https://nexdock.com/features/)**
+
+[Xbox Wireless Controller + USB-C® Cable](https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller-usb-c)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/187094245-3c406751-4e4b-42fd-bd2c-a72181722fad.png">
+<br />
+Xbox Controller
+</p>
+
+[PlayStation 5 DualSense™ Wireless Controller](https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/187094347-109c80cd-5cc3-4a97-8a8f-0181687ab0d4.png">
+<br />
+PS 5  DualSense™ Controller
+</p>
+
+[Nintendo Switch Pro Controller](https://www.amazon.com/Nintendo-Switch-Pro-Controller/dp/B01NAWKYZ0)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/194023448-09e74efa-67f8-4503-87f5-5b7e59289608.png">
+<br />
+Nintendo Switch Pro Controller
+</p>
 
 [Glass Sceen Protector for Steam Deck](https://www.amazon.com/Tempered-Protector-Compatible-Installation-Manufacturer/dp/B09L9F65JG)
 
@@ -157,7 +260,7 @@ Graphics: RDNA 2 with 8 CUs, variable frequency @ 1.0–1.6 GHz.
 
 [Anker PowerCore Battery Bank](https://www.amazon.com/Anker-Portable-PowerCore-Essential-Compatible/dp/B08LG2X98F)
 
-[Anker USB C Hub](https://www.anker.com/products/114/142/usb-c-hubs)
+[Anker USB C Hub](https://www.anker.com/collections/hubs)
 
 
 ## Steam Deck Development
@@ -191,7 +294,7 @@ Graphics: RDNA 2 with 8 CUs, variable frequency @ 1.0–1.6 GHz.
 
 [AMD FidelityFX Super Resolution (FSR)](https://www.amd.com/en/technologies/radeon-software-fidelityfx) is an open source, high-quality solution for producing high resolution frames from lower resolution inputs. FSR enables “practical performance” for costly render operations, such as hardware ray tracing for the AMD RDNA™ and AMD RDNA™ 2 architectures.
 
-[AMD FidelityFX Super Resolution (FSR) 2.0](https://www.amd.com/en/press-releases/2022-03-17-introducing-amd-software-adrenalin-edition-2022-release-and-amd) is an open source, high-quality solution for producing high resolution frames from lower resolution inputs. It uses temporal data and optimized anti-aliasing to boost framerates in supported games while delivering similar or better image quality than native resolution without requiring dedicated machine learning hardware. AMD FSR 2.0 will be available some time Q2 2022.
+[AMD FidelityFX Super Resolution (FSR) 2.0](https://www.amd.com/en/press-releases/2022-03-17-introducing-amd-software-adrenalin-edition-2022-release-and-amd) is an open source, high-quality solution for producing high resolution frames from lower resolution inputs. It uses temporal data and optimized anti-aliasing to boost framerates in supported games while delivering similar or better image quality than native resolution without requiring dedicated machine learning hardware.
 
 [MangoHud](https://github.com/flightlessmango/MangoHud) is a Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
 
@@ -200,6 +303,10 @@ Graphics: RDNA 2 with 8 CUs, variable frequency @ 1.0–1.6 GHz.
 [ReplaySorcery](https://github.com/matanui159/ReplaySorcery) is an open-source, instant-replay solution for Linux.
 
 [Luxtorpeda](https://github.com/luxtorpeda-dev/luxtorpeda) is a Steam Play compatibility tool to run games using native Linux engines.
+
+[SteamGridDB](https://www.steamgriddb.com/projects) is a huge database where you can download and share custom video game assets and personalize your gaming library.
+
+[SGDBoop](https://www.steamgriddb.com/boop) is a tool that automatically applies assets from SteamGridDB directly to your Steam library with a click of a button, removing the need to download and set them manually. [Available as a Flatpak](https://flathub.org/apps/details/com.steamgriddb.SGDBoop)
 
 [Deck Verified](https://www.steamdeck.com/en/verified) is a program that reviews games in Steam's catalog verifying their compatibility with the Steam Deck. So when you visit your Library on Steam Deck, you’ll find a compatibility badge on each title, reflecting the kind of experience you can expect when playing each game on Steam Deck.
 
@@ -321,7 +428,7 @@ ArcoLinux Desktop
 ArchTitus Desktop
 </h3>
 
-**[Fedora 35](https://getfedora.org/)**
+**[Fedora Linux](https://getfedora.org/)**
 
 <h3 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/142779592-8b70c81e-ac10-4bb3-91b5-efe25fa9afb4.png">
@@ -348,9 +455,40 @@ Emulation Station Front End
 ## Getting Windows 10 or 11 on the Steam Deck
 [Back to the Top](https://github.com/mikeroyal/Steam-Deck-Guide#table-of-contents)
 
-**[Steam Deck Windows Resources](https://help.steampowered.com/en/faqs/view/6121-ECCD-D643-BAA8)**
+ **Useful YouTube videos:**
 
-**[Recovery instructions](https://help.steampowered.com/en/faqs/view/1B71-EDF2-EB6D-2BB3) for getting back to the default Steam Deck OS.**
+ * [Steam Deck Windows Install to a microSD | Wagner's TechTalk | YouTube](https://www.youtube.com/watch?v=pnpZboy_VQE)
+ * [Windows On The Steam Deck: Benchmarks, Gaming, 4K | ETAPrime | YouTube](https://www.youtube.com/watch?v=vkqIjr4Ni6E)
+
+ **[Steam Deck Windows Resources](https://help.steampowered.com/en/faqs/view/6121-ECCD-D643-BAA8)**
+
+ **[Recovery instructions](https://help.steampowered.com/en/faqs/view/1B71-EDF2-EB6D-2BB3) for getting back to the default Steam Deck OS.**
+
+**Creating a Windows 10/11 Bootable Device (MicroSD or USB)**
+
+[Rufus](https://rufus.ie/) is a utility that helps format and create bootable USB flash drives.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/158471950-74640216-66ed-407b-a615-e643284ba0b8.png">
+  <br />
+  Rufus
+</p>
+
+**In Rufus 3.19:**
+
+Add a new selection dialog for Windows 11 setup customization:
+
+  * Secure Boot and TPM bypass have now been moved to this dialog.
+  * Allows to bypass the mandatory requirement for a Microsoft account on Windows 11 22H2.
+    **(Note: Network must be temporarily disabled for the local account creation to be proposed).**
+  * Added an option to skip all collection questions (Sets all answers to “Don’t allow”).
+  * Added an option for setting internal drives offline for Windows To Go.
+  
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/183272077-015b8bb2-af94-443a-a455-f2018fcbd52a.png">
+  <br />
+  Rufus 3.19 Windows 11 setup customization.
+</p>
 
 **[Windows 11](https://www.microsoft.com/en-us/software-download/windows11)**
 
@@ -403,10 +541,18 @@ Emulation Station Front End
 
 [SyncThing](https://syncthing.net/) is a continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes. Works with Mac OS X, Windows, Linux, FreeBSD, Solaris, OpenBSD, Android, and many others. Downloadable in Discover. It's also open source and licensed under the MPL-2.0 license.
 
+[Usermode FTP Server](https://gitlab.com/ergoithz/umftpd) is a tool that let's you start an FTP server as user and transfer files with any FTP client. Allowing you to access your files directly with many file browsers' builtin FTP support: Windows File Explorer, Thunar, Gnome Files, Dolphin and many more. [Usermode FTP Server on FlatHub](https://flathub.org/apps/details/eu.ithz.umftpd)
+
 ## Running Android Apps on your Steam Deck
 [Back to the Top](https://github.com/mikeroyal/Steam-Deck-Guide#table-of-contents)
 
 [Waydroid](https://github.com/waydroid/waydroid) is a container-based approach to boot a full Android system on a regular Linux system. Make sure to checkout the [Waydroid Arch wiki page](https://wiki.archlinux.org/title/Waydroid). 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/189516892-24454312-836a-4a88-a6b8-a3e9aaa8612c.png">
+<br />
+ 
+</p>
 
 [Anbox](https://github.com/anbox) is a container-based software for running a full Android system on Linux distributions. Make sure to checkout the [Anbox Arch wiki page](https://wiki.archlinux.org/title/Anbox).
 
@@ -418,22 +564,6 @@ Emulation Station Front End
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/182049940-ccba08e7-b05d-4991-b36f-1e2596c390da.png">
- </p>
-
-## Steam Deck Power Tools
-[Back to the Top](https://github.com/mikeroyal/Steam-Deck-Guide#table-of-contents)
-
-[Steam Deck PowerTools](https://github.com/NGnius/PowerTools) is a tool that provides system tweaks for power users.
-
-   - Enable & disable CPU threads & SMT
-   - Set CPU max frequency and toggle boost
-   - Set some GPU power parameters (fastPPT & slowPPT)
-   - Set the fan RPM (unsupported on SteamOS beta)
-   - Display supplementary battery info
-   - Keep settings between restarts (stored in ~/.config/powertools.json)
-  
-  <p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/168942613-685cf180-3b1d-4a29-ba10-f5bdfbcfdfb6.png">
  </p>
  
  ## Steam Tinker Launch
@@ -459,18 +589,18 @@ Emulation Station Front End
  ## Btrfs on Steam Deck
  [Back to the Top](https://github.com/mikeroyal/Steam-Deck-Guide#table-of-contents)
  
- **Warning: This project is still experimental and buggy so this is only recommended for advanced users!**
- 
- [Btrfdeck](https://github.com/Trevo525/btrfdeck) is a project that will help get you from using ext4 on your Steam Deck's microSD card, to [Btrfs](https://btrfs.wiki.kernel.org/). 
+ [SteamOS Btrfs](https://gitlab.com/popsulfr/steamos-btrfs/) is a project that will help get you from using ext4 on your Steam Deck's microSD card or home directory, to [Btrfs](https://btrfs.wiki.kernel.org/). 
  
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/172273657-f184233d-56d8-429b-9a63-d8a2b8e7412b.png">
  </p>
  
- ## Plugin Loader
+ ## Plugin Loaders
  [Back to the Top](https://github.com/mikeroyal/Steam-Deck-Guide#table-of-contents)
- 
-[Plugin Loader](https://github.com/SteamDeckHomebrew/PluginLoader) is a plugin loader tool for the Steam Deck.
+
+ ### Decky Loader
+
+[Decky Loader](https://github.com/SteamDeckHomebrew/decky-loader) is a plugin loader tool for the Steam Deck.
 
 **Features:**
 
@@ -479,10 +609,71 @@ Emulation Station Front End
   - Allows 2-way communication between the plugins and the loader.
   - Allows plugins to define python functions and run them from javascript.
   - Allows plugins to make fetch calls, bypassing cors completely.
+
+A list of available plugins for Decky Loader can be found in [this store](https://plugins.deckbrew.xyz/).
  
-  <p align="center">
+ <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/176962910-9bf09ad0-1ab2-4524-bd50-7420afec2c4a.png">
  </p>
+
+ #### Steam Deck Power Tools
+[Back to the Top](https://github.com/mikeroyal/Steam-Deck-Guide#table-of-contents)
+
+[Steam Deck PowerTools](https://github.com/NGnius/PowerTools) is a plugin for Decky that provides system tweaks for power users.
+
+   - Enable & disable CPU threads & SMT
+   - Set CPU max frequency and toggle boost
+   - Set some GPU power parameters (fastPPT & slowPPT)
+   - Set the fan RPM (unsupported on SteamOS beta)
+   - Display supplementary battery info
+   - Keep settings between restarts (stored in ~/.config/powertools.json)
+  
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/168942613-685cf180-3b1d-4a29-ba10-f5bdfbcfdfb6.png">
+ </p>
+
+ ### Crankshaft
+[Crankshaft](https://crankshaft.space/) is a Steam client plugin manager and framework. It lets you install and create plugins to add more functionality to your Steam client. [Available as a Flatpak](https://flathub.org/apps/details/space.crankshaft.Crankshaft)
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/2069735/193312550-4c3c5c0d-11ef-4eef-bf19-32e522398fd0.png">
+ </p>
+
+## Installing Unreal Engine on Linux
+
+[Back to the Top](#table-of-contents)
+
+The easiest way to install Unreal Engine 5 on your Linux system is using the Epic Asset Manager that's availble on [FlatHub](https://flathub.org/) as a [Flatpak](https://flatpak.org). If you don't have Flatpak installed on your Linux system follow these [simple instructions to get started](https://flatpak.org/setup/).
+
+[Epic Asset Manager](https://flathub.org/apps/details/io.github.achetagames.epic_asset_manager) is an unofficial client to install [Unreal Engine](https://www.unrealengine.com/), download and manage purchased assets, projects, plugins and games from the [Epic Games Store](https://www.unrealengine.com/marketplace?lang=en-US).
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/180886562-ef6aa63d-8117-4719-9af1-e25108042c2c.png">
+<br />
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/180886564-3ebc8ecb-e2c0-4e53-9f45-f986bd24a89d.png">
+<br />
+</p>
+
+**Quick links to Development Resources**
+
+ - [Sign-up for Epic Games Acount](https://www.epicgames.com/account/password)
+ 
+ - [Sign-up for Epic Games GitHub](https://github.com/EpicGames/Signup)
+ 
+ - [Unreal Engine 5 Linux Binary Download](https://www.unrealengine.com/en-US/linux)
+ 
+ - [Linux Development Requirements for Unreal Engine](https://docs.unrealengine.com/5.0/en-US/linux-development-requirements-for-unreal-engine/)
+ 
+ - [Unreal Engine Performance and Profiling](https://docs.unrealengine.com/5.0/en-US/TestingAndOptimization/PerformanceAndProfiling/)
+ 
+ - [Unreal Engine Blueprint API Reference](https://docs.unrealengine.com/5.0/en-US/BlueprintAPI/index.html)
+
+ - [Unreal Engine C++ API Reference](https://docs.unrealengine.com/5.0/en-US/API/index.html)
+
+ - [Unreal Engine Python API Reference](https://docs.unrealengine.com/5.0/en-US/PythonAPI/index.html)
  
 # Gaming
 [Back to the Top](https://github.com/mikeroyal/Steam-Deck-Guide#table-of-contents)
@@ -527,9 +718,49 @@ Emulation Station Front End
 
 [Lutris](https://lutris.net) is a gaming client for Linux. It gives you access to all your video games with the exception of the current console generation. Also, integrates nicely with other stores like GOG, Steam, Battle.net, Origin, Ubisoft Connect and many other sources that allow you to import your existing game library and community maintained install scripts give you a completely automated setup.
 
+### Epic Games Store integration
+
+[Back to the Top](#table-of-contents)
+
 [Add Epic Games Store](https://lutris.net/games/epic-games-store/)
 
  <img src="https://user-images.githubusercontent.com/45159366/106686406-14412e00-657f-11eb-97c4-c80c6e25a374.png">
+ 
+ ### Blizzard Battle.net intgeration
+[Back to the Top](#table-of-contents)
+
+[Blizzard Battle.net](https://lutris.net/games/battlenet/) is an internet-based online gaming, digital distribution, and digital rights management platform developed by Activision and Blizzard Entertainment. Battle.net is the launcher for World of Warcraft, Diablo III, StarCraft II, Hearthstone, Heroes of the Storm, Overwatch and Call of Duty.
+
+<img src="https://user-images.githubusercontent.com/45159366/189614458-d51a15cb-d02d-4b1f-9e77-e712dcdb1d73.png">
+
+### EA Play integration
+[Back to the Top](#table-of-contents)
+
+[EA Play](https://lutris.net/games/ea-desktop/) is a subscription-based video game service from Electronic Arts for the Xbox One, Xbox Series X/S, PlayStation 4, PlayStation 5 and Microsoft Windows platforms, offering access to selected games published by Electronic Arts along with additional incentives.
+
+<img src="https://user-images.githubusercontent.com/45159366/189614466-476e0c4e-bab9-44bd-86c4-8aeadd739b63.png">
+
+### Origin integration
+[Back to the Top](#table-of-contents)
+ 
+[Origin](https://lutris.net/games/origin/) is an online gaming, digital distribution and digital rights management (DRM) platform developed by Electronic Arts that allows users to purchase games on the internet for PC and mobile platforms, and download them with the Origin client (formerly EA Download Manager, EA Downloader and EA Link).
+
+<img src="https://user-images.githubusercontent.com/45159366/189614468-49c4a05c-d6ca-4988-b3e6-10f0c71463d6.png">
+
+### Ubisoft Connect integration
+[Back to the Top](#table-of-contents)
+
+[Ubisoft Connect](https://lutris.net/games/ubisoft-connect/) is a digital distribution, digital rights management, multiplayer and communications service created by Ubisoft to provide an experience similar to the achievements/trophies offered by various other game companies.
+
+<img src="https://user-images.githubusercontent.com/45159366/189614471-422cbad8-1ae7-4f06-ad81-7f3b68550569.png">
+
+### GOG Galaxy integration
+[Back to the Top](#table-of-contents)
+
+[GOG GALAXY](https://lutris.net/games/gog-galaxy/) is a fully optional client to install, play and update your games.
+
+<img src="https://user-images.githubusercontent.com/45159366/189615528-385c01a8-f780-49e0-9502-db00d8082d9d.png"> 
+        
 
 ## GameHub
 [Back to the Top](https://github.com/mikeroyal/Steam-Deck-Guide#table-of-contents)
@@ -575,21 +806,17 @@ Emulation Station Front End
 
  <img src="https://user-images.githubusercontent.com/45159366/106686391-0f7c7a00-657f-11eb-9d0b-1ebb4d385883.jpeg">
 
-[Moonlight Game Streaming](https://moonlight-stream.org/) is a program that let you stream from your PC games over the Internet with no configuration required. Stream from almost any device, whether you're in another room or miles away from your gaming rig.
+[Moonlight Game Streaming](https://moonlight-stream.org/) is a program that let you stream from your PC games over the Internet with no configuration required. Stream from almost any device, whether you're in another room or miles away from your gaming rig. [Sunshine](https://github.com/LizardByte/Sunshine) is a **Game stream host for Moonlight** that is a self-hosted, low latency, cloud gaming solution with support for AMD, Intel, and NVIDIA GPUs. 
 
-<img src="https://user-images.githubusercontent.com/45159366/106686398-11463d80-657f-11eb-841a-d534829ccc3d.png">
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/106686398-11463d80-657f-11eb-841a-d534829ccc3d.png">
+</p>
 
 [Chiaki](https://git.sr.ht/~thestr4ng3r/chiaki) is a Free and Open Source Software Client for PlayStation 4 and PlayStation 5 Remote Play for Linux, FreeBSD, OpenBSD, Android, macOS, Windows, Nintendo Switch and potentially even more platforms. [Chiaki Flatpak](https://flathub.org/apps/details/re.chiaki.Chiaki)
 
 [Xbox Cloud Gaming](https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming) is Microsoft's cloud-based Xbox game-streaming technology **(currently in Beta)**. **Play games like Forza Horizon 4, Halo 5: Guardians, Gears of War 4, Sea of Thieves, Cuphead, Red Dead Redemption 2, and 100+ other games on your mobile device or Chrome web browser**. Xbox Cloud Gaming does require an [Xbox Game Pass Ultimate](https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming) subscription.
 
 <img src="https://user-images.githubusercontent.com/45159366/108111388-74d56e00-7049-11eb-8aeb-3e5d65f9e832.png">
-
-[Stadia](https://stadia.google.com/games) is Google's gaming platform that lets you instantly play your favorite video games on screens you already own. Game on TVs with Chromecast with Google TV, laptops, desktops, tablets or compatible phones. [Stadia Pro](https://stadia.google.com/) is a subscription($9.99 per month) that unlocks a growing collection of free games to play on Stadia. 
-
-<p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/162089471-3eb27f98-2366-4117-9af5-93bb126a2c37.png">
-</p>
 
 [Parsec](https://parsec.app/cloud-gaming) is a video game streaming platform, which offers a wide variety of games and genres to choose from and provides a high-quality and smooth gameplay. SParsec is developed in order to provide a high-quality smooth gameplay, same time to be free of all ads and in-game purchases.
 
@@ -609,6 +836,8 @@ Emulation Station Front End
 [EmuDeck](https://www.emudeck.com/) is a tool that takes care of everything for your retrogaming needs from RetroArch Configuration, Bezels, Gamepad Configuration for GameCube, Wii, Citra, SNES, etc. EmuDeck will even install EmulationStation Desktop Edition and carry over all their custom configurations and no need to configure ROM paths or anything. 
 
 [EmulationStation Desktop Edition (ES-DE)](https://www.es-de.org/) is a frontend application for browsing and launching games from your multi-platform game collection. It's  available for Unix/Linux, macOS(M1 & Intel) and Windows.
+
+[Pegasus](https://pegasus-frontend.org/) is a cross platform, customizable graphical frontend for launching emulators and managing your game library (especially retro games) and launching them from one place. It's focused on customizability, cross platform support (including embedded devices) and high performance.
 
 [RetroPie](https://retropie.org.uk/) is a frontend for emulators that allows you to turn your Raspberry Pi, ODroid C1/C2, or PC into a retro-gaming machine. It builds upon Raspbian, [EmulationStation](https://github.com/Aloshi/EmulationStation), RetroArch and many other projects to enable you to play your favourite Arcade, home-console, and classic PC games with the minimum set-up.
 
@@ -657,6 +886,8 @@ Emulation Station Front End
 [DOSBox Staging](https://github.com/dosbox-staging/dosbox-staging) is a full x86 CPU emulator (independent of host architecture), capable of running DOS programs that require real or protected mode. [DOSBox Staging Flatpak](https://flathub.org/apps/details/io.github.dosbox-staging)
 
 [Flycast](https://github.com/flyinghead/flycast) is a multi-platform Sega Dreamcast, Naomi and Atomiswave emulator derived from reicast. [Flycast Flatpak](https://flathub.org/apps/details/org.flycast.Flycast)
+
+[DuckStation](https://www.duckstation.org/) is an simulator/emulator of the Sony PlayStation 1 console, focusing on playability, speed, and long-term maintainability. [Available as a Flatpak on Flathub](https://flathub.org/apps/details/org.duckstation.DuckStation).
 
 [PCSX2](https://pcsx2.net/) is a PlayStation 2 'emulator', a free program that tries to replicate the PlayStation 2 console to enable you to play PS2 games on your PC. [PCSX2 Flatpak](https://flathub.org/apps/details/net.pcsx2.PCSX2)
 
